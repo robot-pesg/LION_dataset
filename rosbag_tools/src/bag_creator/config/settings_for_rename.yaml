@@ -1,0 +1,7 @@
+# dataset folder absolute paths of cams:
+old_topic: mynteye/right/image_raw
+new_topic: /mynteye/right/image_raw
+
+# cam images prefix:
+old_bag: /media/rossen/Dataset/11-02/2021-11-02-13-43-46.bag
+new_bag: /media/rossen/Dataset/rename/2021-11-02-13-43-46.bag

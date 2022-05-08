@@ -1,0 +1,29 @@
+# dataset folder absolute paths of cams:
+left_folder_path: /mnt/hgfs/ubuntu_share/Ruin/c4a3a5/
+right_folder_path: /mnt/hgfs/ubuntu_share/Ruin/c4a3a4/
+
+# cam images prefix:
+left_cam_prefix: img_c4a3a5_21335061561_seq_
+right_cam_prefix: img_c4a3a4_21335061573_seq_
+
+# corresponding timestamp file path:
+timestamp_file_path: /home/Rossen/Datasets/2021-11-19-14-40-32_timestamp.txt
+
+# down-sample of dataset frequency:
+down_sample_ratio: 2
+
+# images opencv format (bgr8, mono8, ..):
+image_format: mono8
+
+# images imread flag (cv::IMREAD_GRAYSCALE = 0, cv::IMREAD_COLOR = 1, ..):
+image_format: 0
+
+# output folder path (must exist):
+output_folder_path: /mnt/hgfs/ubuntu_share/
+
+# output_bag_name:
+output_bag_name: 2021-11-19-14-40-32.bag
+
+# cam topics to be appended to rosbag:
+left_cam_topic: /dalsa_gray_0/image_raw
+right_cam_topic: /dalsa_gray_1/image_raw

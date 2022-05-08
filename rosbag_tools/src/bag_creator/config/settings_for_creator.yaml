@@ -1,0 +1,26 @@
+# dataset folder absolute paths of cams:
+left_folder_path: /mnt/hgfs/ubuntu_share/2021-11-19-15-50-51/c4a3a5/
+right_folder_path: /mnt/hgfs/ubuntu_share/2021-11-19-15-50-51/c4a3a4/
+
+# cam images prefix:
+left_cam_prefix: img_c4a3a5_21335073060_seq_
+right_cam_prefix: img_c4a3a4_21335073069_seq_
+
+# corresponding timestamp file path:
+timestamp_file_path: /mnt/hgfs/ubuntu_share/2021-11-19-15-50-51/timestamp_c4a3a5_fixed.txt
+
+# down-sample of dataset frequency:
+down_sample_ratio: 2
+
+# images opencv format (bgr8, mono8, ..):
+image_format: mono8
+
+# output folder path (must exist):
+output_folder_path: /home/xuyufeng/my_files/Datasets/output/
+
+# output_bag_name:
+output_bag_name: test1.bag
+
+# cam topics in rosbag:
+left_cam_topic: /dalsa_gray_0/image_raw
+right_cam_topic: /dalsa_gray_1/image_raw
